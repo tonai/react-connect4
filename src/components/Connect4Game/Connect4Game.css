@@ -1,0 +1,12 @@
+.Connect4Game__message {
+  text-align: center;
+}
+
+.Connect4Game__token {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  vertical-align: middle;
+  margin-left: 10px;
+}

@@ -1,0 +1,16 @@
+.Connect4Cell {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+}
+
+.Connect4Cell__mask {
+  position: absolute;
+  top: -18px;
+  left: -18px;
+  width: 36px;
+  height: 36px;
+  border: 20px solid #fff;
+  border-radius: 50%;
+}

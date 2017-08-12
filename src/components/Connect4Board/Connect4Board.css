@@ -1,0 +1,56 @@
+.Connect4Board {
+  text-align: center;
+}
+
+.Connect4Board__container {
+  position: relative;
+  display: inline-block;
+  background-color: #888;
+}
+
+.Connect4Board__table {
+  display: table;
+  position: relative;
+}
+
+.Connect4Board__head {
+  display: table-header-group;
+  background-color: #fff;
+}
+
+.Connect4Board__body {
+  display: table-row-group;
+}
+
+.Connect4Board__row {
+  display: table-row;
+}
+
+.Connect4Board__cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.Connect4Board__head .Connect4Board__cell:first-child {
+  border-left: 1px solid transparent;
+}
+
+.Connect4Board__head .Connect4Board__cell:last-child {
+  border-right: 1px solid transparent;
+}
+
+.Connect4Board__body .Connect4Board__row:first-child .Connect4Board__cell {
+  border-top: 1px solid #888;
+}
+
+.Connect4Board__body .Connect4Board__row:last-child .Connect4Board__cell {
+  border-bottom: 1px solid #888;
+}
+
+.Connect4Board__body .Connect4Board__row .Connect4Board__cell:first-child {
+  border-left: 1px solid #888;
+}
+
+.Connect4Board__body .Connect4Board__row .Connect4Board__cell:last-child {
+  border-right: 1px solid #888;
+}

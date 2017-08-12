@@ -1,0 +1,7 @@
+.Connect4Token {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  transition: top 400ms ease-out;
+}

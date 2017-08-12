@@ -1,0 +1,24 @@
+.Connect4Config__table {
+  display: table;
+  width: 100%;
+}
+
+.Connect4Config__row {
+  display: table-row;
+}
+
+.Connect4Config__label {
+  display: table-cell;
+  margin: 5px 0;
+}
+
+.Connect4Config__input {
+  display: table-cell;
+  margin: 5px 0;
+  width: 100%;
+}
+
+.Connect4Config__buttons {
+  text-align: center;
+  margin: 5px 0;
+}
