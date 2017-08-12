@@ -2,4 +2,23 @@
   display: block;
   width: 40px;
   height: 40px;
+  padding: 4px 1px;
+  border: 0;
+  background: none;
+  text-align: left;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.Connect4Col__image {
+  width: 32px;
+  height: 32px;
+}
+
+.Connect4Col__image path {
+  fill: darkcyan;
+}
+
+.Connect4Col__image:hover path {
+  fill: darkslategray;
 }
